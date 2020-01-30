@@ -3,6 +3,6 @@ branches:
   only:
   - master
 install:
-- pip install django 
+- pip install -r requirements.txt 
 script:
 - python3 manage.py test 
