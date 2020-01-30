@@ -1,0 +1,6 @@
+language: django
+branches:
+  only:
+  - master
+script:
+- python3 manage.py test 
